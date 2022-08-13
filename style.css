@@ -1,0 +1,160 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 48px;
+width: auto;
+background-color:white;
+padding: 6px;
+}
+
+.nav-style{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: auto;
+    height: 290px;
+}
+
+.search
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.searchbox
+{
+    display: block;
+    height: 45px;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 22px;   
+}
+
+input[type="text"]
+{
+    margin-left: 20px;
+    background: #fff;
+    border: none;
+    outline: none;
+    height: 39px;
+    width: 560px;
+}
+
+.buttons
+{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonbox
+{
+    display: block;
+    height: 45px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.googlesearch 
+{
+    margin: 11px 8px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+  }
+  
+  .feelinglucky 
+  {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+  }
+
+  .language
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .footer
+  {
+    margin-top: 340px;
+    height: auto;
+    width: 100%;
+  }
+
+  .country
+  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px #d6d6d6 solid;
+  }
+  
+  .shortcuts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: #F2F2F2 ;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .carbon
+  {
+    margin-right: 180px;
+  }
+
+  .pHiOh
+  {
+    text-decoration:none;
+    color: #9e9e9e;    
+    margin-right: 30px;    
+}
+
+
